@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../img/patternpad.svg);
+}
+
+@import url('https://fonts.googleapis.com/css2? familia=Roboto&display=swap');
+
+h1{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+
+    align-items:center;
+    margin: 0px auto;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+
+    width: 70%;
+    height: 500px;
+}
+
+
+.timer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    border-radius: 60px;
+    background-color: #0E1D2C;
+    height: 50%;
+    width: 50%;
+}
+
+.btn{
+    height: 100%;
+    width: 10%;
+    margin-left: 10px;
+}
+
+.far,.fas{
+    transition: all 300ms;
+    margin-left:20px ;
+    color: #fff;
+    cursor: pointer;
+}
+
+.far:hover{
+
+    transform: scale(1.1);
+}
+
+.fas:hover{
+    transform: scale(1.1);
+}
